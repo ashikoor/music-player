@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Music Player</title>
+</head>
+<body>
+    <div class="player-container">
+        <main class="main-player" role="main" aria-label="Music Player">
+            <div class="album-section">
+                <div class="album-cover">
+                    <div class="album-image" role="img" aria-label="Album artwork for Cosmic Dreams"></div>
+                </div>
+                <div class="track-info">
+                    <h1 class="track-title">Neon Nights</h1>
+                    <h2 class="artist-name">Synthwave Collective</h2>
+                    <p class="album-name">Cosmic Dreams</p>
+                </div>
+            </div>
+
+            <div class="controls-section">
+                <div class="progress-container">
+                    <div class="time-display">
+                        <span aria-label="Current time">2:34</span>
+                        <span aria-label="Total duration">4:12</span>
+                    </div>
+                    <div class="progress-bar" role="slider" aria-label="Track progress" tabindex="0">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="control-buttons" role="group" aria-label="Playback controls">
+                    <button class="control-btn" aria-label="Shuffle">⇄</button>
+                    <button class="control-btn" aria-label="Previous track">⏮</button>
+                    <button class="control-btn play-btn" aria-label="Play">▶</button>
+                    <button class="control-btn" aria-label="Next track">⏭</button>
+                    <button class="control-btn" aria-label="Repeat">⟳</button>
+                </div>
+
+                <div class="secondary-controls">
+                    <div class="volume-control">
+                        <span aria-hidden="true">🔊</span>
+                        <div class="volume-slider" role="slider" aria-label="Volume" tabindex="0">
+                            <div class="volume-fill"></div>
+                        </div>
+                    </div>
+                    <button class="control-btn" aria-label="More options">⋯</button>
+                </div>
+            </div>
+        </main>
+
+        <aside class="playlist-section" role="complementary" aria-label="Current playlist">
+            <div class="playlist-header">
+                <h3 class="playlist-title">Now Playing</h3>
+                <p class="playlist-subtitle">Synthwave Essentials • 12 tracks</p>
+            </div>
+
+            <div class="playlist-tracks" role="list">
+                <div class="track-item active" role="listitem" tabindex="0">
+                    <span class="track-number">1</span>
+                    <div class="track-details">
+                        <div class="track-name">Neon Nights</div>
+                        <div class="track-artist">Synthwave Collective</div>
+                    </div>
+                    <span class="track-duration">4:12</span>
+                </div>
+
+                <div class="track-item" role="listitem" tabindex="0">
+                    <span class="track-number">2</span>
+                    <div class="track-details">
+                        <div class="track-name">Digital Dreams</div>
+                        <div class="track-artist">Cyber Pulse</div>
+                    </div>
+                    <span class="track-duration">3:45</span>
+                </div>
+
+                <div class="track-item" role="listitem" tabindex="0">
+                    <span class="track-number">3</span>
+                    <div class="track-details">
+                        <div class="track-name">Retrowave Paradise</div>
+                        <div class="track-artist">Electric Sunset</div>
+                    </div>
+                    <span class="track-duration">5:21</span>
+                </div>
+
+                <div class="track-item" role="listitem" tabindex="0">
+                    <span class="track-number">4</span>
+                    <div class="track-details">
+                        <div class="track-name">Midnight Drive</div>
+                        <div class="track-artist">Neon Highway</div>
+                    </div>
+                    <span class="track-duration">4:33</span>
+                </div>
+
+                <div class="track-item" role="listitem" tabindex="0">
+                    <span class="track-number">5</span>
+                    <div class="track-details">
+                        <div class="track-name">Synthwave City</div>
+                        <div class="track-artist">Future Bass</div>
+                    </div>
+                    <span class="track-duration">3:58</span>
+                </div>
+
+                <div class="track-item" role="listitem" tabindex="0">
+                    <span class="track-number">6</span>
+                    <div class="track-details">
+                        <div class="track-name">Cosmic Voyage</div>
+                        <div class="track-artist">Stellar Waves</div>
+                    </div>
+                    <span class="track-duration">6:12</span>
+                </div>
+
+                <div class="track-item" role="listitem" tabindex="0">
+                    <span class="track-number">7</span>
+                    <div class="track-details">
+                        <div class="track-name">Electric Atmosphere</div>
+                        <div class="track-artist">Synthwave Collective</div>
+                    </div>
+                    <span class="track-duration">4:07</span>
+                </div>
+
+                <div class="track-item" role="listitem" tabindex="0">
+                    <span class="track-number">8</span>
+                    <div class="track-details">
+                        <div class="track-name">Neon Glow</div>
+                        <div class="track-artist">Retro Future</div>
+                    </div>
+                    <span class="track-duration">3:29</span>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
